@@ -33,7 +33,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("나눔손글씨 펜", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.Font = new System.Drawing.Font("나눔손글씨 펜", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.ForeColor = System.Drawing.Color.HotPink;
             this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
@@ -42,6 +42,7 @@
             this.button1.Text = "안녕하세요!";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
